@@ -52,7 +52,9 @@ A continuación se deja un listado de las funciones diponibles:
 * void wait(int time) throws InterruptedException
 * String characterMap()
 
-_Cada función cuenta con su respectiva documentación que puede consultarse en la carpeta "Documentación" de este proyecto_
+
+_Cada función cuenta con su respectiva documentación que puede consultarse en la carpeta "Documentación" de este proyecto._
+
 Consultar **Documentacion** para los ejemplos practicos.
 
 ## Versionado 📌
