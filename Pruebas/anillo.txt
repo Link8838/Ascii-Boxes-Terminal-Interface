@@ -1,0 +1,215 @@
+╔════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Tres Anillos para los Reyes Elfos bajo el cielo. Siete para los Señores Enanos en palacios ║
+║ de piedra. Nueve para los Hombres Mortales condenados a morir. Uno para el Señor Oscuro,   ║
+║ sobre el trono oscuro en la Tierra de Mordor donde se extienden las Sombras. Un Anillo     ║
+║ para gobernarlos a todos. Un Anillo para encontrarlos, un Anillo para atraerlos a todos y  ║
+║ atarlos en las tinieblas en la Tierra de Mordor donde se extienden las Sombras.            ║
+╚════════════════════════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Tres Anillos para los Reyes Elfos bajo el cielo. Siete para los Señores Enanos en palacios ║
+║ de  piedra.  Nueve para los Hombres Mortales condenados a morir. Uno para el Señor Oscuro, ║
+║ sobre  el  trono  oscuro  en la Tierra de Mordor donde se extienden las Sombras. Un Anillo ║
+║ para  gobernarlos a todos. Un Anillo para encontrarlos, un Anillo para atraerlos a todos y ║
+║ atarlos en las tinieblas en la Tierra de Mordor donde se extienden las Sombras.            ║
+╚════════════════════════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════╗
+║ Tres Anillos para los Reyes Elfos bajo el cielo.   ║
+║ Siete para los Señores Enanos en palacios de       ║
+║ piedra. Nueve para los Hombres Mortales condenados ║
+║ a morir. Uno para el Señor Oscuro, sobre el trono  ║
+║ oscuro en la Tierra de Mordor donde se extienden   ║
+║ las Sombras. Un Anillo para gobernarlos a todos.   ║
+║ Un Anillo para encontrarlos, un Anillo para        ║
+║ atraerlos a todos y atarlos en las tinieblas en la ║
+║ Tierra de Mordor donde se extienden las Sombras.   ║
+╚════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════╗
+║ Tres  Anillos  para los Reyes Elfos bajo el cielo. ║
+║ Siete  para  los  Señores  Enanos  en  palacios de ║
+║ piedra. Nueve para los Hombres Mortales condenados ║
+║ a  morir. Uno para el Señor Oscuro, sobre el trono ║
+║ oscuro  en  la Tierra de Mordor donde se extienden ║
+║ las  Sombras.  Un Anillo para gobernarlos a todos. ║
+║ Un   Anillo  para  encontrarlos,  un  Anillo  para ║
+║ atraerlos a todos y atarlos en las tinieblas en la ║
+║ Tierra de Mordor donde se extienden las Sombras.   ║
+╚════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════╗
+║ Esto es una prueba para objetos de cajas Ascii Art ║
+║ 42                                                 ║
+║ agua?: true                                        ║
+╚════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                           Tres Anillos para los Reyes Elfos bajo el cielo.                              ║
+║                         Siete para los Señores Enanos en palacios de piedra.                            ║
+║                          Nueve para los Hombres Mortales condenados a morir.                            ║
+║  Uno para el Señor Oscuro, sobre el trono oscuro en la Tierra de Mordor donde se extienden las Sombras. ║
+║                                  Un Anillo para gobernarlos a todos.                                    ║
+║  Un Anillo para encontrarlos, un Anillo para atraerlos a todos y  atarlos en las tinieblas en la Tierra ║
+║                                de Mordor donde se extienden las Sombras.                                ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗ ║
+║ ║                           Tres Anillos para los Reyes Elfos bajo el cielo.                              ║ ║
+║ ║                         Siete para los Señores Enanos en palacios de piedra.                            ║ ║
+║ ║                          Nueve para los Hombres Mortales condenados a morir.                            ║ ║
+║ ║  Uno para el Señor Oscuro, sobre el trono oscuro en la Tierra de Mordor donde se extienden las Sombras. ║ ║
+║ ║                                  Un Anillo para gobernarlos a todos.                                    ║ ║
+║ ║  Un Anillo para encontrarlos, un Anillo para atraerlos a todos y  atarlos en las tinieblas en la Tierra ║ ║
+║ ║                                de Mordor donde se extienden las Sombras.                                ║ ║
+║ ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝ ║
+║                                                                                                             ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                                                  ║
+║          ___ . .  _                                                                                              ║
+║ "T$$$P"   |  |_| |_                                                                                              ║
+║  :$$$     |  | | |_                                                                                              ║
+║  :$$$                                                      "T$$$$$$$b.                                           ║
+║  :$$$     .g$$$$$p.   T$$$$b.    T$$$$$bp.                   BUG    "Tb      T$b      T$P   .g$P^^T$$  ,gP^^T$$  ║
+║   $$$    d^"     "^b   $$  "Tb    $$    "Tb    .s^s. :sssp   $$$     :$; T$$P $^b.     $   dP"     `T :$P    `T  ║
+║   :$$   dP         Tb  $$   :$;   $$      Tb  d'   `b $      $$$     :$;  $$  $ `Tp    $  d$           Tbp.      ║
+║   :$$  :$;         :$; $$   :$;   $$      :$; T.   .P $^^    $$$    .dP   $$  $   ^b.  $ :$;            "T$$p.   ║
+║   $$$  :$;         :$; $$...dP    $$      :$;  `^s^' .$.     $$$...dP"    $$  $    `Tp $ :$;     "T$$      "T$b  ║
+║   $$$   Tb.       ,dP  $$"""Tb    $$      dP ""$""$" "$"$^^  $$$""T$b     $$  $      ^b$  T$       T$ ;      $$; ║
+║   $$$    Tp._   _,gP   $$   `Tb.  $$    ,dP    $  $...$ $..  $$$   T$b    :$  $       `$   Tb.     :$ T.    ,dP  ║
+║   $$$;    "^$$$$$^"   d$$     `T.d$$$$$P^"     $  $"""$ $"", $$$    T$b  d$$bd$b      d$b   "^TbsssP" 'T$bgd$P   ║
+║   $$$b.____.dP                                 $ .$. .$.$ss,d$$$b.   T$b.                                        ║
+║ .d$$$$$$$$$$P                                                         `T$b.                                      ║
+║                                                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╗
+║ 0 ║10 ║20 ║30 ║40 ║   ║60 ║70 ║80 ║90 ║100║110║
+╚═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╝
+╔═════╦═════╦═════╦═════╦═════╦═════╦═════╦═════╦═════╦═════╦═════╦═════╗
+║Único║Único║Único║Único║Único║     ║Único║Único║Único║Único║Único║Único║
+╚═════╩═════╩═════╩═════╩═════╩═════╩═════╩═════╩═════╩═════╩═════╩═════╝
+╔═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╦═══╗
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║   ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╠═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╬═══╣
+║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║ a ║
+╚═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╩═══╝
+╔═══╦═══╦═══╦═══╦═══╗
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║   ║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╠═══╬═══╬═══╬═══╬═══╣
+║ 0 ║100║200║300║400║
+╚═══╩═══╩═══╩═══╩═══╝
+╔═══════════════════════════════════════════════════════════════════════╗
+║                     Tabla Random de cosas Random                      ║
+╠═════════════════╦═════════════════╦═════════════════╦═════════════════╣
+║     Nombre      ║     Carrera     ║Tomate o Jitomate║      Edad       ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║     Emilio      ║      C.C.       ║     Tomate      ║      22.0       ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║     Cuervo      ║      C.C.       ║    Jitomate     ║       22        ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║      Erik       ║      C.C.       ║     Tomate      ║       22        ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║      Link       ║                 ║       Si        ║       22        ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║      Rams       ║      C.C.       ║    Jitomate     ║      19.5       ║
+╚═════════════════╩═════════════════╩═════════════════╩═════════════════╝
+╔═══════════════════════════════════════════════════════════════════════╗
+║                     Tabla Random de cosas Random                      ║
+╠═════════════════╦═════════════════╦═════════════════╦═════════════════╣
+║     Nombre      ║     Carrera     ║Tomate o Jitomate║      Edad       ║
+╠═════════════════╬═════════════════╬═════════════════╬═════════════════╣
+║     Emilio      ║      C.C.       ║     Tomate      ║      22.0       ║
+║     Cuervo      ║      C.C.       ║    Jitomate     ║       22        ║
+║      Erik       ║      C.C.       ║     Tomate      ║       22        ║
+║      Link       ║                 ║       Si        ║       22        ║
+║      Rams       ║      C.C.       ║    Jitomate     ║      19.5       ║
+╚═════════════════╩═════════════════╩═════════════════╩═════════════════╝
+╔═════════════════╗
+║     Anillos     ║
+╠════════╦════════╣
+║ Número ║  Raza  ║
+╠════════╬════════╣
+║   1    ║ Señor  ║
+╠════════╬════════╣
+║   2    ║        ║
+╠════════╬════════╣
+║   3    ║ Elfos  ║
+╠════════╬════════╣
+║   9    ║Hombres ║
+╠════════╬════════╣
+║   7    ║ Enanos ║
+╚════════╩════════╝
+╔═════════════════╗
+║     Anillos     ║
+╠════════╦════════╣
+║ Número ║  Raza  ║
+╠════════╬════════╣
+║   1    ║ Señor  ║
+║   2    ║        ║
+║   3    ║ Elfos  ║
+║   9    ║Hombres ║
+║   7    ║ Enanos ║
+╚════════╩════════╝
+╔═════════════════════════════════════════╗
+║ Señor < NULL < Elfos < Hombres < Enanos ║
+╚═════════════════════════════════════════╝
+╔═════════════════╗
+║ EMPTY ARRAYLIST ║
+╚═════════════════╝
+
+ ║ Elfos ║ <= TOP
+ ╠═══════╣
+ ║Enanos ║
+ ╠═══════╣
+ ║ 26.11 ║
+ ╠═══════╣
+ ║Hombres║
+ ╠═══════╣
+ ║ Orcos ║
+ ╠═══════╣
+ ║Hobbits║
+ ╠═══════╣
+ ║       ║
+ ╠═══════╣
+ ║ 1397  ║
+ ╚═══════╝
+
+ ║      ║ <= TOP
+ ╚══════╝
+EMPTY STACK
