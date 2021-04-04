@@ -64,9 +64,9 @@ Primera versión oficial, sujeta a actualizaciones.
 
 ## Autores ✒️
 
-* **Hernández Ferreiro Enrique Ehecatl**
+* **Hernández Ferreiro Enrique Ehecatl**,
 _Facultad de Ciencias, UNAM._
-_linkhernandez@ciencias.unam.mx_
+_linkhernandez@ciencias.unam.mx_,
 _Link8838_
 
 ## Licencia 📄
