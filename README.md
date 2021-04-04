@@ -19,7 +19,7 @@ _En ese README podrán encontar diversos ejemplos sobre su uso y funcionamiento,
 
 Será necesario crear una instacia de la clase para mandar llamar sus métodos:
 ```
-ÀsciiBox asciibox = new AsciiBox();
+AsciiBox asciibox = new AsciiBox();
 ```
 Consultar **Pruebas** para los ejemplos practicos.
 
