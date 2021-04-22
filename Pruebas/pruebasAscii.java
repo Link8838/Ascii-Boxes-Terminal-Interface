@@ -23,6 +23,10 @@ public class pruebasAscii{
     public static void main(String[] args){
         String box = "";
         AsciiBox asciiTest = new AsciiBox();
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        asciiTest.show(asciiTest.addAccents("Inicamos contador de tiempo, con la función 'startTimer()'"));
+        asciiTest.startTimer();
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         try {
           File myObj = new File("anillo.txt");
           myObj.createNewFile();
@@ -73,6 +77,13 @@ public class pruebasAscii{
         //Guardamos en caja el Ascii Art almacenado en la lista, checamos la longuitud para ponerla, e imprimimos.
         box = asciiTest.asciiBox(asciiList.get(1), 112, false, true);
         asciiTest.writeAsciiFile(box, "anillo.txt");
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+        asciiTest.show(asciiTest.addAccents("Concatenación de 2 Ascii Art"));
+        //Creamos una cadena AsciiArt.
+        String craneo = "        ,--.\n       ([ oo]\n        `- ^\\\n      _  I`-'\n";
+        box = asciiTest.concatAscii(craneo, craneo);
+        asciiTest.show(box);
+        asciiTest.writeAsciiFile(box, "anillo.txt");        
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         String[] array1 = new String[12];
         Integer[] array2 = new Integer[12];
@@ -194,7 +205,10 @@ public class pruebasAscii{
         asciiTest.show(asciiTest.addAccents("Leeremos el archivo generado e imprimimos todo el archivo en una caja"));
         box = asciiTest.readTextFile("anillo.txt");
         box = asciiTest.asciiBox(box, 116, false, true);
-
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        asciiTest.show(asciiTest.addAccents("Detenemos contador de tiempo, con la función 'stopTimer(boolean)'"));
+        asciiTest.stopTimer(true);
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //javadoc -encoding UTF-8 *.java
     }
 }

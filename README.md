@@ -5,9 +5,9 @@ _A class program to cast strings, arrays, matrix, objets and more to an ASCII Ar
 
 ## Comenzando
 
-_Para usar esta clase es necesario descargar el archivo "AsciiBox.class" dado que aun es un proyecto en desarrollo (e hice un desastre con mi código, perdón) solo se cuenta con el .class disponible, el .java una vez quede todo perfecto será cargado al repositorio._
+_Para usar esta clase es necesario descargar el archivo "AsciiBox.java" este proyecto aún está en desarrollo por lo que muchas funciones pueden ser modificadas en un futuro, se añadirán las actualizaciones mas abajo._
 
-Descarga **AsciiBox.class** para usar ésta clase.
+Descarga **AsciiBox.java** para usar ésta clase.
 
 ## Pre-requisitos 
 
@@ -51,18 +51,27 @@ A continuación se deja un listado de las funciones diponibles:
 * void cls()throws IOException, InterruptedException
 * void wait(int time) throws InterruptedException
 * String characterMap()
+* String concatAscii(String firstAscii, String lastAscii)
+* void startTimer()
+* long stopTimer(boolean print)
 
 
 _Cada función cuenta con su respectiva documentación que puede consultarse en la carpeta "Documentación" de este proyecto._
 
-Consultar **Documentacion** para los ejemplos practicos.
+Consultar **Documentacion** para los ejemplos prácticos.
 
 ## Versionado 📌
 
-_1.0_
-Primera versión oficial, sujeta a actualizaciones.
+_1.1_
+Primera actualización oficial, sujeta a más actualizaciones.
 
-## Autores ✒️
+_Cambios de la versión 1.1:_
+
+* Añadida la función para concatenar dos Ascii Art.
+* Añadida una función para iniciar un contador en milisegundos.
+* Añadida una función para detener el contador y devolver su valor como long o imprimirlo como string.
+
+## Autor ✒️
 
 * **Hernández Ferreiro Enrique Ehecatl**,
 _Facultad de Ciencias, UNAM._
@@ -71,7 +80,7 @@ _Link8838_
 
 ## Licencia 📄
 
-_Esta clase es de uso libre para cualquiera que la necesite, por el momento no cuenta con código abierto, pero eso no limita su libre uso, en un futuro se cargará todo el código para hacerla de código abierto._
+_Esta clase es de uso libre para cualquiera que la necesite, actualizada a código abierto, has buen uso del tiempo que invertí en esto._
 
 ---
 Que nadie te diga que la terminal no es una interfaz gráfica. (Link8838).
