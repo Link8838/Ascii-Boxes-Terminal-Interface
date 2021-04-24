@@ -3,7 +3,14 @@ import java.io.IOException;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Stack;
-
+/**
+ * Clase que utiliza los métodos de animación de la clase AsciiBox para
+ * realizar una prueba visual para cada uno de ellos.
+ * Para mas información consultar la documentación.
+ * @author Hernández Ferreiro Enrique Ehecatl
+ * @author linkhernandez@ciencias.unam.mx
+ * @version 1.0
+ */
 public class pruebasAsciimation{
 
     public static void main(String[] args){

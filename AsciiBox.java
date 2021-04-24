@@ -5,7 +5,7 @@
  * funciones auxiliares para formar tus propias cadenas con Ascii Art.
  * @author Hernández Ferreiro Enrique Ehecatl
  * @author linkhernandez@ciencias.unam.mx
- * @version 1.5
+ * @version 1.2
  */
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -36,8 +36,9 @@ public class AsciiBox{
     static String aM = "\u00C1";   static String eM = "\u00C9";
     static String iM = "\u00ED";   static String oM = "\u00D3";
     static String uM = "\u00Da";   static String nM = "\u00D1";
+    static String qm = "\u00bf";   static String am = "\u00a1";
     static String exception = " -hoo+.                                                            -.\n  -d++ooo/.                                                     :++s/\n   :y/oo+:/oo/`                                           `-///oo++s \n    /h/++os+../++/--:////:::////:--::/+/`           `-:///::/oso:-y` \n     os-:o++so   `..`   ```.`  `.-.``` ./+////////++/-`./+ss+:-..y.  \n      ss:-/++o                                     `-/os++/-:--/y:   \n       /y/::-                                    `/o++o++:-.  -s`    \n        /s--.                                    :++o+o+:...`+o      \n        `d--`                                     `...-:.::.s:       \n        o+-.                                           -- :y`        \n       :y--`                                            . h          \n      .y--.oNNd:-`            `-/+--/:-                  o/          \n     `h--.  :mMMdo         `+dMMMMmmms:                  h`          \n     .y-.     .--          `/osyso/.                     .s          \n     -y-`        ..                                ``     d          \n     h-.        ++//::.`                          ``-`    :y         \n     y-`       `hsoooyso.           `...                 `y:         \n     s-`         +yy:`             `--.                  /y`         \n     -+.   `.   `.:-`            `.--`                   .d.         \n      y.    .:yhddddhy+:``    ``./--`          ``        +s:         \n      y.`     :ddyyyyyhddhs+//+os/-`          `..         :s         \n     s:-. `.   o+///:///+syhys+..-.             `         -y         \n     .s-. .-`  -/.` ` `       - `..                       .y         \n      -o-` `    .+:.-.`    `-+.                         `oo/         \n       o:::-------/oooooooo+:----------------------------:sd`        \n        -------------------------------------+o++++s++/:+ooo:        \n";
-    long inicio = 0, finaly = 0, tiempo = 0;
+    static long inicio = 0, finaly = 0, tiempo = 0;
 
     /**
      * Constructor por omisión.
@@ -50,7 +51,7 @@ public class AsciiBox{
      * @param rest Entero de la cantidad de espacios en blanco (" ") que se desea añadir.
      * @return Cadena con espacios en blanco agregados.
      */
-    public String addBlanks(String ren, int rest){
+    public static String addBlanks(String ren, int rest){
         if(rest != 0){
             for(int i = 0; i<rest; i++){
                 ren += " ";
@@ -69,7 +70,7 @@ public class AsciiBox{
      * @param jump Booleano que indica si se colocará un salto de línea al final del frame, el salto de línea no cuenta dentro de la longitud.
      * @return Cadena parámetro con el frame agregado.
      */
-    public String addFrame(String start, String end, String text, int len, boolean jump){
+    public static String addFrame(String start, String end, String text, int len, boolean jump){
         for(int i = 0; i<len; i++){
             if(i == 0){
                 text += start; 
@@ -98,7 +99,7 @@ public class AsciiBox{
      * @param jump Booleano que indica si se desea colocar un salto de línea al final del frame especial.
      * @return Cadena parámetro con el frame especial añadido.
      */
-    public String addSpecialFrame(String start, String middle, String end, String text, int wordLen, int totalSpaces, boolean jump){
+    public static String addSpecialFrame(String start, String middle, String end, String text, int wordLen, int totalSpaces, boolean jump){
         String specialF = start;
         for(int i = 0; i<totalSpaces; i++){
             for(int j = 0; j<wordLen; j++){
@@ -127,7 +128,7 @@ public class AsciiBox{
      * @param jump Booleano para indicar si se colocará un salto de linea después del miniFrame.
      * @return Cadena pasada como parámetro con el miniFrame agregado.
      */
-    public String addWordMiniFrame(String text, String word, String middle, int maxlength, boolean jump){
+    public static String addWordMiniFrame(String text, String word, String middle, int maxlength, boolean jump){
         String miniFrame = "";
         int wordLen = word.length();      
         int freeSpace = 0, f1 = 0, f2 = 0;
@@ -157,7 +158,7 @@ public class AsciiBox{
      * @param print Booleano para indicar si se imprime el resultado imediatamente después de generar la caja.
      * @return Cadena de texto que representa una caja con la cadena pasada como parámetro dentro de ella.
      */
-    public String asciiBox(String text, int size, boolean justify, boolean print){
+    public static String asciiBox(String text, int size, boolean justify, boolean print){
         String ren = "";
         String extraSpace = "  ";
         String sub1, sub2, nextSpace;
@@ -254,7 +255,7 @@ public class AsciiBox{
      * @param print Booleano para indicar si se imprime el resultado imediatamente después de generar la caja.
      * @return Cadena de texto que representa una caja con la cadena pasada como parámetro dentro de ella.
      */
-    public String asciiBox(Object object, int size, boolean justify, boolean print){
+    public static String asciiBox(Object object, int size, boolean justify, boolean print){
         String asciiObject = "";
         boolean ok = false;
         Class c = object.getClass();
@@ -281,7 +282,7 @@ public class AsciiBox{
      * @param fileName Cadena del nombre del archivo que se desea leer. (debe contener extensión).
      * @return Lista de cadenas con los Ascii Arts encontrados en el archivo.
      */
-    public ArrayList<String> readAsciiFile(String fileName){  
+    public static ArrayList<String> readAsciiFile(String fileName){  
         BufferedReader reader;
         ArrayList<String> lines = new ArrayList<String>();
         String ascii = " ";
@@ -313,7 +314,7 @@ public class AsciiBox{
      * @param fileName Cadena del nombre del archivo que se desea leer. (debe contener extensión).
      * @return Cadena con el contenido del archivo leido.
      */
-    public String readTextFile(String fileName){  
+    public static String readTextFile(String fileName){  
         BufferedReader reader;
         String asciiText = "";
         try {
@@ -340,7 +341,7 @@ public class AsciiBox{
      * @param fileName Cadena del nombre del archivo que se desea leer. (debe contener extensión).
      * @return Booleano que indica si se realizó la escritura en el archivo.
      */
-    public Boolean writeAsciiFile(String text, String fileName){  
+    public static Boolean writeAsciiFile(String text, String fileName){  
         Boolean write = false;
         Path path = Paths.get(fileName);
         if (Files.exists(path)){
@@ -370,7 +371,7 @@ public class AsciiBox{
      * @param text Cadena de texto a la que se le desea aplicar una correción en los acentos.
      * @return Cadena correguida para mostrar acentos de forma correcta.
      */
-    public String addAccents(String text){
+    public static String addAccents(String text){
         text = text.replaceAll("á", a);
         text = text.replaceAll("é", e);
         text = text.replaceAll("í", i);
@@ -383,6 +384,8 @@ public class AsciiBox{
         text = text.replaceAll("Ú", uM);
         text = text.replaceAll("ñ", n);
         text = text.replaceAll("Ñ", nM);
+        text = text.replaceAll("¡", am);
+        text = text.replaceAll("¿", qm);
         return text;
     }
 
@@ -391,7 +394,7 @@ public class AsciiBox{
      * @param text Cadena que contiene una caja Ascii de texto previamente creada.
      * @param speed Entero para indicar la velocidad de la animación.
      */
-    public void asciimateBox(String text, int speed){
+    public static void asciimateBox(String text, int speed){
         String[] splitBox = text.split("\n");
         int tallBox = splitBox.length;
         int lengthBox = splitBox[0].length();
@@ -447,7 +450,7 @@ public class AsciiBox{
      * @param listOfFrames ArrayList de cadenas que contienen los frames a animar.
      * @param speed Entero para indicar la velocidad de la animación.
      */
-    public void asciiMation(ArrayList<String> listOfFrames, int speed){
+    public static void asciiMation(ArrayList<String> listOfFrames, int speed){
         for(String f : listOfFrames){            
             try{
                 cls();
@@ -472,7 +475,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado una vez generado.
      * @return Cadena que representa el arreglo dado como parámetro en Ascii Art.
      */
-    public String asciiArray(Object[] array, boolean print){
+    public static String asciiArray(Object[] array, boolean print){
         int len = array.length;
         String asciiArr = "", aux = "";
         int maxlength = 1, auxLen = 1;
@@ -515,7 +518,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado una vez generado.
      * @return Cadena con la representación en Ascii Art de la matriz dada.
      */
-    public String asciiMatrix(Object[][] matrix, boolean print){
+    public static String asciiMatrix(Object[][] matrix, boolean print){
         int len = matrix.length;
         String asciiMat = "", aux = "";
         int maxlength = 1, auxLen = 1;
@@ -570,7 +573,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado una vez generado.
      * @return Cadena que representa la tabla en Ascii Art.
      */
-    public String asciiTable(String title, ArrayList<String> headers, ArrayList<ArrayList<Object>> items, boolean columns, boolean separators, boolean print){
+    public static String asciiTable(String title, ArrayList<String> headers, ArrayList<ArrayList<Object>> items, boolean columns, boolean separators, boolean print){
         String table = "", aux = "";
         int maxlength = 1, totalLength = 1, auxLen = 0, cont = 0;
 
@@ -670,7 +673,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado una vez generado.
      * @return Cadena con la representación en Ascii Art del ArrayList dado.
      */
-    public String asciiArrayList(ArrayList<Object> list, boolean print){
+    public static String asciiArrayList(ArrayList<Object> list, boolean print){
         String asciiList = "";
         String aux = "";
         if(!list.isEmpty()){
@@ -704,7 +707,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado una vez generado.
      * @return Cadena con la representación Ascii Art del Stack dado.
      */
-    public String asciiStack(Stack<Object> stack, boolean print){
+    public static String asciiStack(Stack<Object> stack, boolean print){
         String asciiStack = "\n", aux = "";
         Stack<Object> stackCopy = stack;
         int maxlength = 1, totalLength = 1, auxLen = 0, cont = 0;
@@ -762,7 +765,7 @@ public class AsciiBox{
      * @param box Cadena de una caja Ascii previamente creada.
      * @return Entero con la longuitud del Frame de la caja dada.
      */
-    public int frameLength(String box){
+    public static int frameLength(String box){
         String[] splitBox = box.split("\n");
         int lengthBox = splitBox[0].length();
         return lengthBox;
@@ -773,7 +776,7 @@ public class AsciiBox{
      * @param box Cadena de una caja Ascii previemente creada.
      * @return Entero con la altura del Frame de la caja dada.
      */
-    public int frameTall(String box){
+    public static int frameTall(String box){
         String[] splitBox = box.split("\n");
         int tallBox = splitBox.length;
         return tallBox;        
@@ -786,7 +789,7 @@ public class AsciiBox{
      * @param columns Booleano que indica si la tabal se llenará por filas o columnas, true = columnas.
      * @return Booleano que indica si las longuitudes son correctas según sea el caso. (Filas o columnas).
      */
-    public boolean checkSizes(ArrayList<ArrayList<Object>> items, int size, boolean columns){
+    public static boolean checkSizes(ArrayList<ArrayList<Object>> items, int size, boolean columns){
         boolean ok = true;
         int aux = 0;
         if(!columns){
@@ -814,7 +817,7 @@ public class AsciiBox{
      * Método que imprime en terminal el Objeto pasado como parámetro.
      * @param o Objecto a imprimir en terminal.
      */
-    public void show(Object o){
+    public static void show(Object o){
         System.out.println(o.toString());
     }
 
@@ -824,7 +827,7 @@ public class AsciiBox{
      * @throws IOException En caso de errores de I/O.
      * @throws InterruptedException En caso de que un thread falle.
      */
-    public void cls()throws IOException, InterruptedException{
+    public static void cls()throws IOException, InterruptedException{
         try {
             if (System.getProperty("os.name").contains("Windows")){
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
@@ -843,7 +846,7 @@ public class AsciiBox{
      * @param time Entero de tiempo a dormir el thread actual.
      * @throws InterruptedException En caso de que se interrumpa la ejecución del thread.
      */
-    public void wait(int time) throws InterruptedException{
+    public static void wait(int time) throws InterruptedException{
         try {
             Thread.sleep(1 * time);
         } catch (InterruptedException e) {
@@ -855,7 +858,7 @@ public class AsciiBox{
     /**
      * Método que inicializa un contador en milisengudos.
      */
-    public void startTimer(){
+    public static void startTimer(){
         inicio = System.currentTimeMillis();
     }
 
@@ -864,7 +867,7 @@ public class AsciiBox{
      * @param print Booleano que indica si se imprime el resultado en milisegundos.
      * @return Long con el tiempo en milisegundos.
      */
-    public long stopTimer(boolean print){
+    public static long stopTimer(boolean print){
         finaly = System.currentTimeMillis();
         tiempo = finaly - inicio;
         if(print){
@@ -879,7 +882,7 @@ public class AsciiBox{
      * Método que devuelve una lista Ascii Art de los caracteres usados en esta clase así como la codificación que se usó para los mismos en Unicode.
      * @return Cadena que representa la tabla de caracteres de este proyecto.
      */
-    public String characterMap(){
+    public static String characterMap(){
         String title = "Mapa de caracteres";
         ArrayList<String> cabeceras = new ArrayList<String>();
         cabeceras.add(" Caracter "); cabeceras.add(" Unicode ");
@@ -911,7 +914,7 @@ public class AsciiBox{
      * @param lastAscii Cadena del segundo Ascii Art a concatenar al primero.
      * @return Cadena con los Ascii Art concatenados.
      */
-    public String concatAscii(String firstAscii, String lastAscii){
+    public static String concatAscii(String firstAscii, String lastAscii){
         String ascii = "";
         int numberLines = 0;
         int linesLength = 0;

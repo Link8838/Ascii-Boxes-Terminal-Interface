@@ -17,9 +17,9 @@ _La clase fue desarrollada en Java 1.8, por lo que versiones posteriores no debe
 
 _En ese README podrán encontar diversos ejemplos sobre su uso y funcionamiento, pero se incluyen dos archivos de prubea dentro de la carpeta "Pruebas" que se pueden ejecutar para observar su funcionamiento._
 
-Será necesario crear una instacia de la clase para mandar llamar sus métodos:
+Todos los métodos y varialbes de la clase son estáticas, por lo que no es necesario crear una instacia de la misma, unicamente basta con mandar llamar la función que se desea utilizar:
 ```
-AsciiBox asciibox = new AsciiBox();
+AsciiBox.asciiBox(String, int, Boolean, Boolean);
 ```
 Consultar **Pruebas** para los ejemplos practicos.
 
@@ -62,14 +62,19 @@ Consultar **Documentacion** para los ejemplos prácticos.
 
 ## Versionado 📌
 
-_1.1_
-Primera actualización oficial, sujeta a más actualizaciones.
+_1.2_
+Segunda actualización oficial, sujeta a más actualizaciones.
 
 _Cambios de la versión 1.1:_
 
 * Añadida la función para concatenar dos Ascii Art.
 * Añadida una función para iniciar un contador en milisegundos.
 * Añadida una función para detener el contador y devolver su valor como long o imprimirlo como string.
+
+_Cambios de la versión 1.2:_
+
+* La función 'addAccents(String text)' ahora corrige los símbolos '¡' y '¿' en la cadena parámetro.
+* Las variables y los métodos ahora son estáticas, por lo que no es necesario instanciar la clase para usar sus métodos.
 
 ## Autor ✒️
 
