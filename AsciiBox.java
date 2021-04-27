@@ -130,6 +130,7 @@ public class AsciiBox{
      */
     public static String addWordMiniFrame(String text, String word, String middle, int maxlength, boolean jump){
         String miniFrame = "";
+        word = addAccents(word);
         int wordLen = word.length();      
         int freeSpace = 0, f1 = 0, f2 = 0;
         if(wordLen < maxlength){            
@@ -137,7 +138,7 @@ public class AsciiBox{
             f1 = freeSpace/2;
             f2 = freeSpace - f1;            
             miniFrame = addBlanks(miniFrame, f1);            
-            miniFrame += word;            
+            miniFrame += word; 
             miniFrame = addBlanks(miniFrame, f2);            
             miniFrame += middle;            
         } else {

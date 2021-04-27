@@ -62,7 +62,7 @@ Consultar **Documentacion** para los ejemplos prácticos.
 
 ## Versionado 📌
 
-_1.2_
+_1.2.1_
 Segunda actualización oficial, sujeta a más actualizaciones.
 
 _Cambios de la versión 1.1:_
@@ -71,10 +71,16 @@ _Cambios de la versión 1.1:_
 * Añadida una función para iniciar un contador en milisegundos.
 * Añadida una función para detener el contador y devolver su valor como long o imprimirlo como string.
 
+
 _Cambios de la versión 1.2:_
 
 * La función 'addAccents(String text)' ahora corrige los símbolos '¡' y '¿' en la cadena parámetro.
 * Las variables y los métodos ahora son estáticas, por lo que no es necesario instanciar la clase para usar sus métodos.
+
+
+_Cambios de la versión 1.2.1:_
+
+* Correción de un bug en el método addWordMiniFrame(...).
 
 ## Autor ✒️
 
