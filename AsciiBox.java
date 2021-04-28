@@ -762,6 +762,25 @@ public class AsciiBox{
     }
 
     /**
+     * Método que transforma un arrglo de Objects a una representación en Ascii Art.
+     * @param text Arreglo de Object para transformar a Ascii Art.
+     * @param offset Booleano que indica si se imprime el resultado una vez generado.
+     * @return Cadena que representa el arreglo dado como parámetro en Ascii Art.
+     */
+    public static String addOffSet(String text, int offset){
+        String newText = "";
+        String off = "";
+        off = addBlanks(off, offset);
+        String[] lines = text.split("\n");
+
+        for(String s : lines){
+            newText += off + s + "\n";
+        }
+
+        return newText; 
+    }    
+
+    /**
      * Método que regresa la longuitud de un frame de una cadena de caja Ascii  Art dada.     
      * @param box Cadena de una caja Ascii previamente creada.
      * @return Entero con la longuitud del Frame de la caja dada.

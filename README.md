@@ -54,6 +54,7 @@ A continuación se deja un listado de las funciones diponibles:
 * String concatAscii(String firstAscii, String lastAscii)
 * void startTimer()
 * long stopTimer(boolean print)
+* String addOffSet(String text, int offset)
 
 
 _Cada función cuenta con su respectiva documentación que puede consultarse en la carpeta "Documentación" de este proyecto._
@@ -62,8 +63,8 @@ Consultar **Documentacion** para los ejemplos prácticos.
 
 ## Versionado 📌
 
-_1.2.1_
-Segunda actualización oficial, sujeta a más actualizaciones.
+_1.3_
+Tercera actualización oficial, sujeta a más actualizaciones.
 
 _Cambios de la versión 1.1:_
 
@@ -81,6 +82,11 @@ _Cambios de la versión 1.2:_
 _Cambios de la versión 1.2.1:_
 
 * Correción de un bug en el método addWordMiniFrame(...).
+
+
+_Cambios de la versión 1.3:_
+
+* Añadida una función para agregar un offset a una cadena o caja dada.
 
 ## Autor ✒️
 

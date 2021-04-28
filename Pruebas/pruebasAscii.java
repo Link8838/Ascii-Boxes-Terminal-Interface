@@ -62,7 +62,13 @@ public class pruebasAscii{
         pruebasAscii test = new pruebasAscii();    
         //Caja para objeto dado, sin justificar, impresión al final.
         box = AsciiBox.asciiBox(test, 50, true, true);
-        AsciiBox.writeAsciiFile(box, "anillo.txt");                   
+        AsciiBox.writeAsciiFile(box, "anillo.txt");
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        AsciiBox.show("Caja creada, desplazada 10 caracteres.");
+        //Caja creada, desplazada 10 caracteres.
+        box = AsciiBox.addOffSet(box, 10);
+        AsciiBox.show(box);
+        AsciiBox.writeAsciiFile(box, "anillo.txt");
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         String anillo2 = "                          Tres Anillos para los Reyes Elfos bajo el cielo.\n                        Siete para los Señores Enanos en palacios de piedra.\n                         Nueve para los Hombres Mortales condenados a morir.\n Uno para el Señor Oscuro, sobre el trono oscuro en la Tierra de Mordor donde se extienden las Sombras.\n                                 Un Anillo para gobernarlos a todos.   \n Un Anillo para encontrarlos, un Anillo para atraerlos a todos y  atarlos en las tinieblas en la Tierra\n                               de Mordor donde se extienden las Sombras.";
         AsciiBox.show("Caja con texto con saltos de linea");        
