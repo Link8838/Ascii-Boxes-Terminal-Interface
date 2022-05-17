@@ -5,7 +5,7 @@
  * funciones auxiliares para formar tus propias cadenas con Ascii Art.
  * @author Hernández Ferreiro Enrique Ehecatl
  * @author linkhernandez@ciencias.unam.mx
- * @version 1.2
+ * @version 1.4
  */
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -16,6 +16,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.FileReader;
+import java.io.File; 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
@@ -340,15 +341,21 @@ public class AsciiBox{
      * <br> La escritura del archivo se hace con codificación UTF-8.
      * @param text Cadena de texto que se desea escribir en el archivo de texto.
      * @param fileName Cadena del nombre del archivo que se desea leer. (debe contener extensión).
+     * @param clear Boleano para indicar si limpiar el archivo o conservar el texto anterior.
      * @return Booleano que indica si se realizó la escritura en el archivo.
      */
-    public static Boolean writeAsciiFile(String text, String fileName){  
+    public static Boolean writeAsciiFile(String text, String fileName, boolean clear){  
         Boolean write = false;
+        String previus = "";
         Path path = Paths.get(fileName);
         if (Files.exists(path)){
             try{
-                String previus = readTextFile(fileName);
-                previus = previus + text;      
+                if(clear){
+                    previus = text;  
+                } else {
+                    previus = readTextFile(fileName);
+                    previus = previus + text;
+                }
                 PrintWriter out = new PrintWriter(fileName, "UTF-8");
                 out.append(previus);
                 out.flush();  
@@ -359,8 +366,19 @@ public class AsciiBox{
                 asciiBox(e, e.toString().length(), false, true);
             }
         } else {
-            String warnig = "No se ha encontrado el archivo de guardado especificado.";
-            asciiBox(warnig, warnig.length(), false, true);
+            try{
+                File newF = new File(fileName);
+                PrintWriter out = new PrintWriter(newF, "UTF-8");
+                out.append(text);
+                out.flush();  
+                out.close();
+                write = true;
+            } catch (Exception e){
+                asciiBox(exception, 69, false, true);
+                asciiBox(e, e.toString().length(), false, true);
+            }            
+            //String warnig = "No se ha encontrado el archivo de guardado especificado.";
+            //asciiBox(warnig, warnig.length(), false, true);
         }
         return write;
     }    
@@ -977,5 +995,33 @@ public class AsciiBox{
             ascii += lines[i] + lines2[i] + "\n";
         }
         return ascii;
+    }
+
+    public static String concatAtCenter(String top, String bot){
+        String concatC = "";
+
+        if(bot.lastIndexOf("\n") != -1){
+            String[] renglones = bot.split("\n");
+            int wordLen = renglones[renglones.length-1].length();
+            int freeSpace = 0, f1 = 0, f2 = 0;
+            freeSpace = wordLen - top.length();
+            f1 = freeSpace/2;
+            f2 = freeSpace - f1;
+            concatC = addBlanks(concatC, f1);
+            concatC += top;
+            concatC = addBlanks(concatC, f2);
+            concatC += "\n" + bot;     
+        } else {
+            int wordLen = bot.length();
+            int freeSpace = 0, f1 = 0, f2 = 0;
+            freeSpace = wordLen - top.length();
+            f1 = freeSpace/2;
+            f2 = freeSpace - f1;
+            concatC = addBlanks(concatC, f1);
+            concatC += top;
+            concatC = addBlanks(concatC, f2);
+            concatC += "\n" + bot;  
+        }
+        return concatC;
     }
 }
